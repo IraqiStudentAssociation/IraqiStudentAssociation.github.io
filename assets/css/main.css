@@ -132,6 +132,17 @@ footer, header, hgroup, menu, nav, section {
 	margin-top: 30px;
 }
 
+#groupContainer {
+	background-color: white;
+	overflow-y: hidden; // hide vertical
+	overflow-x: hidden; // hide horizontal
+}
+
+#groupPic {
+	max-width: 100%;
+	height: auto;
+}
+
 .event_pic {
 	width: 500px;
 	height: 707px;
