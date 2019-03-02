@@ -49,6 +49,13 @@ footer, header, hgroup, menu, nav, section {
 	  font-size: 17px;
 	}
 
+	@media screen and (max-width: 650px) {
+	.navbar a {
+		padding: 14px 8px;
+		float: center;
+	}
+}
+
 	.navbar a:hover {
 	  background: #ddd;
 	  color: black;
@@ -108,13 +115,6 @@ footer, header, hgroup, menu, nav, section {
 #munir {
 	background-image: url("../../images/headshots/munir.jpg");
 	background-size: cover;
-}
-
-@media screen and (max-width: 640px) {
-
-	.navbar a {
-		padding: 14px 20px;
-	}
 }
 
 .execs {
